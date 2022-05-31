@@ -28,13 +28,13 @@ android_library {
     ],
 
     srcs: ["src/**/*.java",
-           "SakuraSettings/src/**/*.java",
+           "MagnusSettings/src/**/*.java",
     ],
 
-    aaptflags: ["--extra-packages com.sakura.settings"],
+    aaptflags: ["--extra-packages com.magnus.settings"],
 
     resource_dirs: ["res",
-                    "SakuraSettings/res"
+                    "MagnusSettings/res"
     ],
 
     static_libs: [

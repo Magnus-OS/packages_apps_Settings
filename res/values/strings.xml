@@ -12214,11 +12214,11 @@
     <!-- Bluetooth phonebook permission alert for dialog title [CHAR LIMIT=none] -->
     <string name="bluetooth_phonebook_access_dialog_title">Allow access to contacts and call log?</string>
 
-    <!-- Sakura maintainer -->
+    <!-- Magnus maintainer -->
     <string name="maintainer">Device Maintainer</string>
 
-    <!-- Sakura version -->
-    <string name="sakura_version">Sakura Version</string>
+    <!-- Magnus version -->
+    <string name="magnus_version">Magnus Version</string>
 
     <!-- Bluetooth phonebook permission alert for dialog content [CHAR LIMIT=none] -->
     <string name="bluetooth_phonebook_access_dialog_content">A Bluetooth device, <xliff:g id="device_name" example="My device">%1$s</xliff:g>, wants to access your contacts and call log. This includes data about incoming and outgoing calls.\n\nYou haven\u2019t connected to <xliff:g id="device_name" example="My device">%2$s</xliff:g> before.</string>

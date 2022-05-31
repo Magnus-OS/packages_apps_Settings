@@ -3480,13 +3480,13 @@
             </intent-filter>
         </activity>
 
-        <!-- SakuraSettings -->
-        <activity android:name=".Settings$SakuraSettingsActivity"
-            android:label="@string/sakura_settings_dash_title"
-            android:icon="@drawable/ic_homepage_sakurasettings"
+        <!-- MagnusArea -->
+        <activity android:name=".Settings$MagnusSettingsActivity"
+            android:label="@string/magnus_settings_dash_title"
+            android:icon="@drawable/ic_homepage_magnussettings"
             android:taskAffinity="">
             <intent-filter android:priority="1">
-                <action android:name="com.sakura.settings.SakuraSettings" />
+                <action android:name="com.magnus.settings.MagnusSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -3501,11 +3501,11 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.sakura.settings.SakuraSettings" />
+                android:value="com.magnus.settings.MagnusSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/sakura_settings_summary"/>
+                android:resource="@string/magnus_settings_summary"/>
         </activity>
 
         <!-- Face unlock -->
@@ -3521,7 +3521,7 @@
         <!-- This is the longest AndroidManifest.xml ever. -->
         <!-- adding more to the longest manifest ever -->
 
-        <receiver android:name="com.sakura.settings.fragments.misc.GamingModeReceiver">
+        <receiver android:name="com.magnus.settings.fragments.misc.GamingModeReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.GAMING_MODE_TURN_OFF" />
                 <action android:name="android.intent.action.GAMING_MODE_TURN_ON" />
@@ -3536,7 +3536,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.sakura.settings.fragments.misc.GamingMode" />
+                android:value="com.magnus.settings.fragments.misc.GamingMode" />
         </activity>
 
         <activity android:name="Settings$OmniJawsSettingsActivity"
@@ -3547,7 +3547,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.sakura.settings.fragments.OmniJawsSettings" />
+                android:value="com.magnus.settings.fragments.OmniJawsSettings" />
         </activity>
     </application>
 </manifest>

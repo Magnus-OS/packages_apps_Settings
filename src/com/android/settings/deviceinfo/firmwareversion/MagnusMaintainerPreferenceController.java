@@ -25,12 +25,12 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class SakuraMaintainerPreferenceController extends BasePreferenceController {
+public class MagnusMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "SakuraMaintainerPreferenceController";
-    private static final String ROM_PROPERTY = "ro.sakura.maintainer";
+    private static final String TAG = "MagnusMaintainerPreferenceController";
+    private static final String ROM_PROPERTY = "ro.magnus.maintainer";
 
-    public SakuraMaintainerPreferenceController(Context context, String key) {
+    public MagnusMaintainerPreferenceController(Context context, String key) {
         super(context, key);
     }
 

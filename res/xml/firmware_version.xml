@@ -22,8 +22,8 @@
     settings:keywords="@string/keywords_android_version">
 
 <PreferenceScreen
-    android:layout="@layout/sakura_logo"
-    android:key="sakura_logo" />
+    android:layout="@layout/magnus_logo"
+    android:key="magnus_logo" />
 
     <!-- Android version -->
     <Preference
@@ -37,7 +37,7 @@
     <!-- Lineage version -->
     <Preference
         android:key="lineage_version"
-        android:title="@string/sakura_version"
+        android:title="@string/magnus_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
@@ -50,13 +50,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
-    <!-- Sakura maintainer -->
+    <!-- Magnus maintainer -->
     <Preference
         android:key="maintainer"
         android:title="@string/maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SakuraMaintainerPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.MagnusMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference

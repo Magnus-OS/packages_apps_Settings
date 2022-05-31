@@ -25,5 +25,5 @@
         android:height="@dimen/dashboard_tile_foreground_image_size"
         android:start="@dimen/dashboard_tile_foreground_image_inset"
         android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_settings_sakurasettings" />
+        android:drawable="@drawable/ic_settings_magnussettings" />
 </layer-list>
