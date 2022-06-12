@@ -35,7 +35,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sakura.settings.preferences.CustomSeekBarPreference;
+import com.magnus.settings.preferences.CustomSeekBarPreference;
 
 /**
  * Settings screen for Smart charging
@@ -85,7 +85,7 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SAKURA;
+        return MetricsProto.MetricsEvent.MAGNUS;
     }
 
     @Override

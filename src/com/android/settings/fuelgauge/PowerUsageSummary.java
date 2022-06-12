@@ -267,11 +267,11 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         if (KEY_BATTERY_TEMP.equals(preference.getKey())) {
             if (batteryTemp) {
                 mBatteryTemp.setSubtitle(
-                    com.android.internal.util.sakura.Utils.batteryTemperature(getContext(), false));
+                    com.android.internal.util.magnus.Utils.batteryTemperature(getContext(), false));
                 batteryTemp = false;
             } else {
                 mBatteryTemp.setSubtitle(
-                    com.android.internal.util.sakura.Utils.batteryTemperature(getContext(), true));
+                    com.android.internal.util.magnus.Utils.batteryTemperature(getContext(), true));
                 batteryTemp = true;
             }
         }
@@ -390,7 +390,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mScreenUsagePref.setSummary(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
         mBatteryTemp.setSubtitle(
-                com.android.internal.util.sakura.Utils.batteryTemperature(getContext(), batteryTemp));
+                com.android.internal.util.magnus.Utils.batteryTemperature(getContext(), batteryTemp));
 
         final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
         Intent batteryBroadcast = context.registerReceiver(null,

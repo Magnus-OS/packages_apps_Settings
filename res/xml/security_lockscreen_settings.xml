@@ -117,7 +117,7 @@
             android:summary="@string/pulse_on_new_tracks_summary"
             settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
 
-        <com.sakura.settings.preferences.SystemSettingListPreference
+        <com.magnus.settings.preferences.SystemSettingListPreference
             android:key="ambient_music_ticker"
             android:title="@string/ambient_music_location"
             android:summary="%s"

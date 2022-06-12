@@ -32,7 +32,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
-import com.sakura.settings.preferences.CustomSeekBarPreference;
+import com.magnus.settings.preferences.CustomSeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -87,7 +87,7 @@ public class SmartCutoffSettings extends DashboardFragment implements OnPreferen
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.SAKURA;
+        return MetricsEvent.MAGNUS;
     }
 
     @Override
