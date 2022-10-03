@@ -23,7 +23,8 @@
 
 <PreferenceScreen
     android:layout="@layout/magnus_logo"
-    android:key="magnus_logo" />
+    android:key="magnus_logo" 
+    android:selectable="false" />
 
     <!-- Android version -->
     <Preference
