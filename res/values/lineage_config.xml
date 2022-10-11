@@ -40,5 +40,4 @@
 
     <!-- Smart Cutoff -->
     <bool name="config_deviceSupportSmartCutoff">false</bool>
-
 </resources>
